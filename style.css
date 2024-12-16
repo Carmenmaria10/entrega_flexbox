@@ -137,11 +137,16 @@ button {
   flex-wrap: wrap;
   padding: 50px;
   padding-top: 20px;
+  background-image: url(assets/hero-vector.png);
+  background-position: center;
+  /* background-position: 10px, 15px, 10px, 20px; */
 }
 
 .info {
   width: 40%;
   min-width: 516px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 #vr > img {
@@ -156,6 +161,10 @@ button {
 
 .info h1 {
   font-size: 2.5rem;
+}
+
+.info p {
+  font-size: 1.2rem;
 }
 
 .botondiv {
@@ -188,7 +197,7 @@ button {
   padding: 25px;
   background-image: linear-gradient(90deg, #211e2e, #3a3456, #211e2e);
   border-radius: 100px;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .contact {
@@ -237,7 +246,6 @@ button {
   #contacto {
     margin-top: 0px;
   }
-
 }
 
 @media (max-width: 570px) {
@@ -264,6 +272,7 @@ button {
   flex-wrap: wrap;
   padding: 50px;
   padding-top: 20px;
+  background-image: url(assets/bg-about.png);
 }
 
 #universo h2 {
@@ -286,140 +295,6 @@ button {
   #universo p {
     width: 100%;
     margin-top: 0px;
-  }
-}
-
-#formulario {
-  background-image: linear-gradient(90deg, #211e2e, #3a3456, #211e2e);
-  border-radius: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 100%;
-}
-
-.form-group {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-
-input, textarea {
-  width: 42%;
-  border: 2px solid var(--rtc-primary-color);
-  border-radius: 25px;
-  background: transparent;
-  color: var(--rtc-primary-color);
-  padding: 15px;
-  font-size: 1rem;
-}
-
-textarea {
-  width: 88.5%;
-  }
-
-input::placeholder, textarea::placeholder{
-  color: var(--rtc-primary-color);
-}
-
-#formulario h2 {
-  font-size: 2.2rem;
-  margin-bottom: 10px;
-  padding-bottom: 30px;
-  border-bottom: 3px solid #8278b3;
-}
-
-#formulario h3 {
-  font-size: 1.5rem;
-  margin-bottom: 50px;
-}
-
-form button {
-  width: 200px;
-}
-
-@media (max-width: 630px) {
-    input, textarea {
-      width: 100%;
-  }
-}
-
-@media (max-width: 570px) {
-#formulario h2 {
-  font-size: 1.7rem;
-}
-
-#formulario h3 {
-  font-size: 1.1rem;
-  }
-}
-
-footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.piepag {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-}
-
-footer img {
-  width: 20%;
-}
-
-#piepagimg {
-  width: 30%;
-}
-
-footer ul {
-  list-style: none;
-  font-weight: bolder;
-}
-
-footer li {
-  padding: 10px;
-}
-
-section h5 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  font-weight: bolder;
-  width: 100%;
-}
-
-footer nav {
-  display: flex;
-  align-items:flex-end;
-  justify-content: center;
-  gap: 10px;
-}
-
-nav img {
-  width: 100%;
-}
-
-@media (max-width: 570px) {
-  section h5, li {
-    font-size: 0.75rem;
   }
 }
 
@@ -488,5 +363,195 @@ nav img {
   
   .funcion p {
     font-size: 0.9rem;
+  }
+}
+
+#tecnologia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#tecnoyhard {
+  width: 70%;
+  height: 200px;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/vrvr.jpg);
+  background-position: 10% 30%;
+  margin-bottom: -10px;
+}
+
+#imgtecno {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#imgtecno img {
+  width: 20%;
+}
+
+#tecnologia h2 {
+  font-weight: bolder;
+  text-align: center;
+}
+
+#tecnologia p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0px;
+  text-align: center;
+}
+
+#direccion {
+  padding: 20px;
+  background-color: #baaeee;
+  border-radius: 100px;
+  margin-bottom: 0px;
+}
+
+#formulario {
+  background-image: linear-gradient(90deg, #211e2e, #3a3456, #211e2e);
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+input, textarea {
+  width: 42%;
+  border: 2px solid var(--rtc-primary-color);
+  border-radius: 25px;
+  background: transparent;
+  color: var(--rtc-primary-color);
+  padding: 15px;
+  font-size: 1rem;
+}
+
+textarea {
+  width: 88.5%;
+}
+
+input::placeholder, textarea::placeholder{
+  color: var(--rtc-primary-color);
+}
+
+#formulario h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  border-bottom: 3px solid #8278b3;
+}
+
+#formulario h3 {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+form button {
+  width: 200px;
+}
+
+@media (max-width: 630px) {
+  input, textarea {
+    width: 100%;
+  }
+}
+
+@media (max-width: 570px) {
+  #formulario h2 {
+    font-size: 1.7rem;
+  }
+
+  #formulario h3 {
+    font-size: 1.1rem;
+  }
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  padding-top: 50px;
+  background-image: url(assets/bg-footer.png);
+  background-position: bottom;
+}
+
+.piepag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+footer img {
+  width: 20%;
+}
+
+#piepagimg {
+  width: 30%;
+}
+
+footer ul {
+  list-style: none;
+  font-weight: bolder;
+}
+
+footer li {
+  padding: 10px;
+}
+
+section h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: bolder;
+  width: 100%;
+}
+
+footer nav {
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav img {
+  width: 100%;
+}
+
+@media (max-width: 570px) {
+  section h5, li {
+    font-size: 0.75rem;
   }
 }
